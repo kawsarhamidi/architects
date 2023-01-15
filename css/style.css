@@ -235,6 +235,15 @@
     padding: 20px;
 }
 
+.element:hover {
+    width: 170px;
+    height: 170px;
+    color: red;
+    background-color: ghostwhite;
+    transition: all 2s;
+    transform: rotate(360deg);
+}
+
 .elements-images {}
 
 .elements-valu {
@@ -299,4 +308,136 @@
     font-size: 20px;
 
     color: #424242;
+}
+
+/*
+---------- media-----------
+ */
+@media only screen and (max-width: 577px) {
+    .containers {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-architects ul li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .images-logo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .features-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* text-align: center; */
+        align-items: center;
+    }
+
+    .banner-header {
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .containers-Experience {
+        /* display: flex;
+        flex-direction : column; */
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .banner-img img {
+        width: 380px;
+    }
+
+    .containers-images img {
+        width: 100%;
+
+    }
+
+    .images-1 img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner-details {
+        text-align: center;
+    }
+
+    .containers-Experience {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .containers-love {}
+
+    .containers-images {
+        text-align: center;
+        width: 300px;
+    }
+
+    .containers-some {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .all-elements {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .container-sponspors {
+        width: 100%;
+    }
+
+    .sponspors-logos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+
+    .banner-details {
+        width: 100%;
+    }
+
+    .containers-love {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .all-elements {
+        margin: 50px;
+    }
+
+    .sponspors-logos {
+        margin: 0;
+    }
+
+    .footer-page {
+        margin: 0;
+    }
 }

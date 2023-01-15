@@ -12,8 +12,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: wheat;
-    padding: 35px;
+    background-color: rgba(255, 144, 14, 0.1);
 
 }
 
@@ -40,7 +39,7 @@
 .banner-header {
     width: 100%;
     height: 110vh;
-    background-color: wheat;
+    background-color: rgba(255, 144, 14, 0.1);
     display: grid;
     justify-content: center;
     margin: auto;
@@ -181,6 +180,7 @@
     border: 0;
     margin-top: -150px;
     padding: 35px;
+    z-index: 2;
 
 }
 
@@ -220,11 +220,12 @@
 
 
 /* all-elements*/
-.all-elements{
+.all-elements {
     display: flex;
     justify-content: space-around;
     margin: 150px 250px;
 }
+
 .element {
     width: 160px;
     height: 160px;
@@ -238,13 +239,64 @@
 
 .elements-valu {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     color: #424242;
 }
 
 .elements-titles {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     color: #727272;
+}
 
+.container-sponspors {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponspors-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    padding: 10px;
+}
+
+.sponspors-details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 10px;
+    line-height: 20px;
+}
+
+/* sponspors-logos */
+.sponspors-logos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 250px 100px;
+
+}
+
+.sponspors-logo {
+    filter: grayscale(100%);
+}
+
+.footer-item {
+    width: 1000px;
+    height: 60px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.footer-page {
+    text-align: center;
+    padding: 18px;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #424242;
 }

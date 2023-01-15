@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid;
 }
 
 /* header */
@@ -75,7 +76,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 
 }
 
@@ -117,7 +117,8 @@
     padding: 10px 2px;
     width: 50%;
 }
-.features-btn{
+
+.features-btn {
     color: whitesmoke;
     background-color: #FF900E;
     padding: 15px 30px;
@@ -127,6 +128,75 @@
 }
 
 /*  */
-.containers-Experience{
+.containers-Experience {
     display: flex;
+    margin: 130px 250px;
+}
+
+.containers-love-title {
+    font-size: 40px;
+    font-weight: 700;
+    width: 50%;
+    border-left: solid #FF900E;
+    padding-left: 5px;
+}
+
+.containers-love-details {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 5px 0;
+    width: 70%;
+}
+
+.containers-dexktop,
+.container {
+    background-color: aliceblue;
+    width: 70%;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.containers-dexktop-titles,
+.titles {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding: 10px 0;
+}
+
+.containers-dexktop-details,
+.details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.containers-images img {}
+
+.containers-button {
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: 0;
+    margin-top: -150px;
+    padding: 35px;
+
+}
+
+.btn-largs {
+    font-size: 50px;
+    font: bold;
+    font-weight: 800;
+    color: #FFFFFF;
+
+}
+
+.btn-small {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.{
+
 }
